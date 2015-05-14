@@ -14,3 +14,8 @@ docker run --name="jekyll-env" --rm -h jekyll-env -p 127.0.0.1:4000:4000 -v $(pw
 
 You should generate your blogs in /srv/jekyll.
 
+Sample command to run inside:
+
+jekyll-env# cd /srv/jekyll && jekyll s -H 0.0.0.0
+
+
