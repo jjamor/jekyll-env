@@ -17,7 +17,7 @@ You should generate your blogs in /srv/jekyll.
 
 Sample command to run inside:
 
-jekyll-env# ruby -rubygems -e 'require "jekyll-import"; JekyllImport::Importers::WordpressDotCom.run({ "source" => "myblog.wordpress.2015-05-17.xml" })'
+jekyll-env# ruby -rubygems -e 'require "jekyll-import"; JekyllImport::Importers::WordpressDotCom.run({ "source" => "myblog.wordpress.2015-05-17.xml", "no_fetch_images" => "true" })'
 
 jekyll-env# cd /srv/jekyll && jekyll s -H 0.0.0.0
 
